@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'Caramel.ttf';
+    src: url(fontess/Caramel.ttf)format('truetype');
+    font-weight: normal;
+}
+
+:root {
+--cor0: rgb(102, 236, 102);
+--cor1:rgb(117, 194, 127);
+--cor2:rgb(112, 235, 137);
+--cor3:green;
+--fonte-padrao:Arial,Verdana,Helvetica,sans-serif;
+}
+
+header{
+background-image: linear-gradient(to bottom,green,white);
+padding: 40px;
+text-align: center;
+font-family: 'Caramel.ttf';
+font-size: 50px;
+border: 1px solid black
+
+
+
+}
+body{
+    background-color: rgb(220, 241, 225);
+}
+
+ul{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    
+    
+
+}
+
+p{
+    background-color: var(--cor2);
+    text-align: justify;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+footer{
+    background-color: var(--cor3);
+    text-indent: 10px;
+    color: aliceblue;
+    
+
+
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(218, 17, 17);
+    color: aliceblue;
+}
+h1#principal{
+    text-align: center;
+    background-color: aqua;
+    height: 100px;
+    border: solid black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 2px;
+    outline: auto;
+    color: black;
+}
+img{
+    
+    width: auto;
+    margin: 300px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
