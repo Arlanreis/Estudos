@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
+
 *{
     margin: 0px;
     padding: 0px;
+    
+
 }
 html, body {
     min-height: 100%;
     background-color: darkcyan;
+    font-family: var(--fonte2)
 }
 
 header{
@@ -18,6 +22,7 @@ header{
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 8vw;
     
 }
 header > p {
@@ -36,19 +41,24 @@ section{
     padding-bottom: 10vh;
     line-height:  2em;
     padding-left: 30px;
+    font-size: 3vw;
+   
 }
+
 section.normal {
-    background-color: rgb(187, 42, 42);
+    background-color: rgb(240, 230, 230);
     color: black;
 }
 section.imagem {
-    background-color: aquamarine;
-    color: blue;
+    background-color: rgb(31, 30, 30);
+    color: white;
 
 }
 section.imagem > p {
-    width: 400px;
-    background-color: rgb(197, 195, 192);
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(43, 44, 43);
+    color: white;
 
 }
 footer{
