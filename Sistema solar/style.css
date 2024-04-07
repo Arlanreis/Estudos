@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --cor1:#6A92F7;
+    --cor2:#6AEBF7;
+    --cor3:#497AFA;
+    --cor4:#6F6AF7;
+    --cor5:yellow;
+    --cor6:white;
+}
+
+header{
+    text-align: center;
+    background-color: var(--cor1);   
+    
+}
+h1{
+    
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 13vh;
+
+}
+h2{
+    padding: 1%;
+    background-color: var(--cor3);
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 7vh;
+
+}
+h3{
+    padding: 1%;
+    background-color: var(--cor3);
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 5vh;
+}
+main{
+    background-color: var(--cor2);
+    background-image: url(assets/walpaper.jpeg);
+    
+}
+span{
+    
+    padding: 2px;
+    margin: 2px;
+    color: var(--cor6);
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure{
+    border: thick rgba(19, 18, 18, 0.884) solid;
+    background-color: var(--cor6);
+    display: flex;
+    flex-flow: column;
+    padding: 50px;
+    max-width: 225px;
+    min-height: 90%;
+    margin: auto;
+}
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.493);
+    
+}
+img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 225px;
+    min-height: 90px;
+    
+}
+.nome-foto{
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    border: bold;
+}
